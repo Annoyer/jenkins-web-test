@@ -18,7 +18,7 @@ public class ClickMoreTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //Launch website
-        driver.get("http://localhost:8089/");
+        driver.get("http://localhost:8080/");
 
         //Maximize the browser
         driver.manage().window().maximize();

@@ -10,6 +10,11 @@
 
     <packaging>war</packaging>
 
+    <properties>
+        <!-- 指定maven的项目编码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
