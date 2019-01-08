@@ -70,29 +70,6 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
-
-            <plugin>
-                <groupId>org.codehaus.cargo</groupId>
-                <artifactId>cargo-maven2-plugin</artifactId>
-                <version>1.4.15</version>
-                <configuration>
-                    <container>
-                        <containerId>tomcat8x</containerId>
-                        <type>remote</type>
-                    </container>
-                    <configuration>
-                        <type>runtime</type>
-                        <properties>
-                            <cargo.tomcat.manager.url>http://localhost:9002/manager</cargo.tomcat.manager.url>
-                            <cargo.remote.username>admin</cargo.remote.username>
-                            <cargo.remote.password>CheHan08081004</cargo.remote.password>
-                            <cargo.servlet.port>9002</cargo.servlet.port>
-                            <cargo.hostname>localhost</cargo.hostname>
-                            <cargo.tomcat.ajp.port>2009</cargo.tomcat.ajp.port>
-                        </properties>
-                    </configuration>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 
