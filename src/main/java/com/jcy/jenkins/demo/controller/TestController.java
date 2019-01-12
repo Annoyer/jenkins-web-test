@@ -12,7 +12,7 @@ public class TestController {
 
     private static List<String> list = new ArrayList<>();
 
-    @RequestMapping(value="/2")
+    @RequestMapping(value="/3")
     public String index() {
         return "index";
     }
