@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class ClickMoreTest {
     public static void main(String[] args)
     {
+        Application.main(new String[0]);
         System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
@@ -18,7 +19,7 @@ public class ClickMoreTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //Launch website
-        driver.get("http://localhost:8080/");
+        driver.get("http://localhost:8080/jenkins-web-test");
 
         //Maximize the browser
         driver.manage().window().maximize();
